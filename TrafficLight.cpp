@@ -38,7 +38,7 @@ void TrafficLight::loop()
 
 void TrafficLight::interrupt()
 {
-	isInterrupted = true;
+	this->isInterrupted = true;
 }
 
 void TrafficLight::changeState(State state)
